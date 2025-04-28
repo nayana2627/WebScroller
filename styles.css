@@ -27,6 +27,13 @@ body, html {
     pointer-events: none;
 }
 
+/* Specific styling only for the first background image */
+.first-background {
+    min-width: 100vw !important;
+    width: 100vw !important;
+    object-fit: cover !important;
+}
+
 #walker {
     position: fixed;
     bottom: -20px;
