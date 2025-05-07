@@ -153,7 +153,11 @@ html {
     }
 
     .first-background {
-        margin-left: -40px !important; 
+        margin-left: -40px !important;
+        width: 100vw !important;
+        height: 100vh !important;  /* Ensure full viewport height */
+        object-fit: cover !important;
+        object-position: center !important; 
     }
 
     .hotspot {
@@ -179,9 +183,12 @@ html {
 
 
     #modal {
-        width: 95%;
+        width: 90% !important;
         height: auto;
         max-height: 80vh;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
     }
 
     #modal-close {
